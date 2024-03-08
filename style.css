@@ -1,4 +1,4 @@
-body{
+.body{
     background-color: #171d25;
     color: ghostwhite;
     text-align: center;
@@ -8,7 +8,7 @@ body{
 .header{
     font-weight: 100
 }
-p{
+.p{
     color: lightslategrey;
 }
 .button{
@@ -19,26 +19,26 @@ p{
     border-radius: 4px;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: large;
 }
 
-table{
+.table{
     margin-left: auto;
     margin-right: auto;
-    
-}
-td{
     text-align: left;
     font-weight: 100;
     padding-bottom: 15px;
-}
-th{
-    text-align: left;
-    padding-top: 1px;
+    padding-top: 20px;
 }
 
-input{
+.txtbox{
     padding: 15px 50px;
+    border: none;
+    background-color:#202126;
+    margin-top: 7px;
+    margin-bottom: 15px;
 }
+
 .help{
     color: lightslategray;
     margin-top: 10px;
@@ -50,16 +50,8 @@ input{
 .about{
     color: lightslategray;
 }
-input{
-    border: none;
-    background-color:#202126;
-}
 
-div{
+.div{
     margin-top: 40px;
     margin-bottom: 30px;
-}
-
-.button{
-    font-size: large;
 }
